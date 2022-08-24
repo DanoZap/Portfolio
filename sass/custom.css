@@ -30,9 +30,12 @@
 body {
   font-family: "Merriweather", serif;
 }
-
 .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
   background: #191b1f;
+}
+
+.navbar-toggler {
+  transition: all .4s !important;
 }
 
 #footer {
@@ -65,10 +68,15 @@ nav {
 }
 
 .column {
-  margin: 20px;
+  margin-top: 30px !important;
   color: #fff;
   background-color: rgb(16, 13, 19);
   border-radius: 26px;
+}
+
+.row {
+  display: block !important;
+  margin-top: 0 !important;
 }
 
 .title-ab {
@@ -79,6 +87,13 @@ nav {
   -webkit-text-fill-color: transparent;
   -webkit-text-decoration: overline #8656ca;
           text-decoration: overline #8656ca;
+}
+
+.card {
+  font-family: sans-serif !important;
+  --bs-card-width: 500px !important;
+  --bs-card-height: !important;
+  --bs-card-bg: none !important;
 }
 
 .column:hover {

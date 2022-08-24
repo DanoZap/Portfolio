@@ -11,16 +11,17 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg bg-light border-bottom sticky-top">
     <div class="container">
       <a class="navbar-brand" href="#">Daniel Zapata</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler collapsed trans" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav position-absolute top-2 end-0">
+      <div class="navbar-collapse collapse" id="navbarSupportedContent">
+        <div class="navbar-nav text-center bg-light position-absolute top-1 end-0" style="width: 350px; margin-top: 5px;">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
           <a class="nav-link" href="#about">About</a>
           <a class="nav-link" href="#project">Projects</a>
@@ -29,15 +30,15 @@
       </div>
     </div>
   </nav>
-  <div class="container-fluid" style="height: 100vh">
+  <div class="container-fluid m-0">
     <div class="text-center p-4">
         <img src="./images/myself.jpg" class="my-face img-fluid" alt="my-face">
       <h1 class="font-monospace text-white p-4">I'm Daniel Zapata</h1>
-      <p class="text-white p-4 m-0 fs-3">I'm 17 years old, I'm starting in the programming world, soon I will update this portfolio with many and better projects.</p>
+      <p class="text-white p-4 m-2 fs-3">I'm 17 years old, I'm starting in the programming world, soon I will update this portfolio with many and better projects.</p>
     </div>
   </div>
   <div class="container-fluid text-center p-3" id="about">
-    <div class="row justify-content-center">
+    <div class="row m-0 justify-content-center">
       <div class="col-3 p-2 column">
         <h1 class="fw-bold title-ab">Who I am</h1>
         <p>I'm Daniel, I am a creative person driven by my passion for programming.
@@ -70,7 +71,7 @@
   </div>
   <div class="container-fluid bg-light p-0" id="project">
     <h1 class="p-3 text-center">Projects</h1>
-    <div class="card m-auto mb-3 mt-3 d-flex">
+    <div class="card m-auto mb-3 mt-3" style="width:50%;">
       <a href="https://danozap.netlify.app/" target="_blank">
       <img src="./images/preview1.PNG" class="card-img-top" alt="project-1">
       </a>
@@ -81,7 +82,7 @@
         <span class="badge text-bg-warning">Bootstrap 5</span>
       </div>
     </div>
-    <div class="card m-auto mb-3 mt-3">
+    <div class="card m-auto mb-3 mt-3" style="width:50%;">
       <a href="https://challenge-1-three.vercel.app/" target="_blank">
       <img src="./images/preview2.PNG" class="card-img-top" alt="project-2">
       </a>
@@ -92,7 +93,7 @@
         <span class="badge text-bg-warning">Bootstrap 5</span>
       </div>
     </div>  
-    <div class="card m-auto mt-3">
+    <div class="card m-auto mt-3" style="width:50%;">
       <a href="https://parallax-danozap.vercel.app/" target="_blank">
       <img src="./images/preview3.PNG" class="card-img-top" alt="project-3">
       </a>
