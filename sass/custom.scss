@@ -1,0 +1,67 @@
+.linkedin, .twitter, .github, .instagram {
+  margin: 8px;
+  padding: 4px;
+  color: #fff;      
+  text-decoration: none;
+}
+.linkedin:hover {
+    margin: 1px;
+    padding: 1px;
+    color:#0077ff
+}
+.twitter:hover {
+    margin: 1px;
+    color:#00acee
+}
+.github:hover {
+  margin: 1px;
+  color: #6c3d958d;
+}
+.instagram:hover {
+    margin: 1px;
+    color: #F77737
+}
+body {
+    font-family: 'Merriweather', serif;
+}
+.container-fluid {
+    background: #191b1f;
+}
+#footer {
+    background: #191b1f;
+}
+nav {
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+}
+.my-face{
+    border-radius: 10%;
+    box-shadow: 0px 7px 68px 5px rgb(241 123 251 / 75%);
+}
+.my-face:hover {
+    transition: .3s;
+    box-shadow: 0px 7px 68px 5px rgba(132, 40, 230, 0.9);
+}
+.list {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0
+}
+.column {
+    margin: 20px;
+    color: #fff;
+    background-color: rgb(16, 13, 19);
+    border-radius: 26px;
+}
+.title-ab {
+    margin-top: 15px;
+    background-image: linear-gradient(-35deg, #955ef4, #634DB6, #7ba193, #5395f8cb, #45dd23);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: overline #8656ca;
+}
+.column:hover {
+    box-shadow: 5px 2px 13px gray;
+}
+@import "../node_modules/bootstrap/scss/bootstrap";
