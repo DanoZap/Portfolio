@@ -24,7 +24,7 @@
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg bg-light border-bottom sticky-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Daniel Zapata</a>
+      <a class="navbar-brand" id="my-name" href="#">Daniel Zapata</a>
       <!-- NAVBAR RESPONSIVE -->
       <button class="navbar-toggler collapsed trans" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -43,7 +43,7 @@
   <div class="container-fluid m-0">
     <div class="text-center p-4">
         <img src="./images/myself.jpg" class="my-face img-fluid" alt="my-face">
-      <h1 class="font-monospace text-white p-4">I'm Daniel Zapata</h1>
+      <h1 class="font-monospace text-white p-4" id="my-name-2">I'm Daniel Zapata</h1>
       <p class="text-white p-4 m-2 fs-3">I'm 17 years old, I'm starting in the programming world, soon I will update this portfolio with many and better projects.</p>
     </div>
   </div>
@@ -52,18 +52,18 @@
     <div class="row m-0 justify-content-center">
       <div class="col-3 p-2 column">
         <h1 class="fw-bold title-ab">Who I am</h1>
-        <p>I'm Daniel, I am a creative person driven by my passion for programming.
+        <p class="p-3">I'm Daniel, I am a creative person driven by my passion for programming.
         My goal is to increase my knowledge and create great applications and websites.</p>
         <h2 class="fw-bold">My Goals</h2>
-        <p>One of my goals is to become a video game developer.</p>
+        <p>One of my goals is to become a <b style="color:#30ffe7;">video game developer</b>.</p>
         <p>Create applications for mobile devices that are recognized worldwide.</p>
       </div>
       <div class="col-3 p-2 column">
         <h1 class="fw-bold title-ab">Frontend Developer</h1>
         <p>I like coding things from scratch and enjoy bringing my ideas to life in the browser.</p>
-        <h3 class="fw-bold">Languages I use:</h3>
-        <h4>HTML, CSS, JavaScript, Git, Bootstrap</h4>
-        <p class="fw-bold fs-4">Dev Tools:</p>
+        <i class="fs-3 fw-bold">Languages I use:</i>
+        <p class="pt-4 m-2 mb-4"><mark class="p-2" id="languages">HTML, CSS, JavaScript, Git, Bootstrap</mark></p>
+        <p class="pt-2 fw-bold fs-4">Dev Tools:</p>
         <ul class="list">
           <li>Visual Studio code</li>
           <li>GitHub</li>
@@ -116,6 +116,14 @@
       </div>
     </div>
     <br>
+  </div>
+  <hr>
+  <div class="text-center">
+    <h2 class="font-monospace">Portfolio Progress</h2>
+  </div>
+  <div class="progress mt-3 ms-1 me-1 mb-1" style="border: 1px solid black">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 1%;color: #000;">
+    <strong>1%</strong></div>
   </div>
   <div class="container-fluid p-2 text-center text-white" id="footer"> <!-- FOOTER -->
     <!-- CONTACT -->
