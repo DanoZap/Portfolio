@@ -55,15 +55,11 @@ nav {
 }
 
 .desc {
-  margin: 90px;
-  background: linear-gradient(140deg, #462b77, #1d0f50, #0c2d1c) ;
+  margin: 10px;
+  margin-top: 50px;
+  padding: 20px;
+  background: linear-gradient(-174deg, #462b77, #1d0f50, #0c2d1c) ;
   border-radius: 250px;
-}
-
-.myname{
-  display: flex;
-  margin-left: 50px;
-  align-items: center !important;
 }
 
 .aboutme {
